@@ -1,4 +1,5 @@
-import { Asset, Font } from "expo";
+import { Font } from "expo";
+import * as Asset from "expo-asset";
 import React from "react";
 import { Dimensions, Platform, View } from "react-native";
 import {
