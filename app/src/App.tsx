@@ -1,5 +1,5 @@
 import { Font } from "expo";
-import * as Asset from "expo-asset";
+// import * as Asset from "expo-asset";
 import React from "react";
 import { Dimensions, Platform, View } from "react-native";
 import {
@@ -159,7 +159,7 @@ class Stargazer extends React.Component<StargazerProps, IState> {
       );
     }
 
-    try {
+    /* try {
       await Asset.loadAsync(
         [require("./stargazer.png")].concat(this.props.imageAssets || []),
       );
@@ -168,7 +168,7 @@ class Stargazer extends React.Component<StargazerProps, IState> {
         "Error fetching providing imageAssets - please check they match the expected format. Error:",
         err,
       );
-    }
+    } */
   }
 
   captureImage = async (image: ScreenshotData, finalScreen: boolean) => {
