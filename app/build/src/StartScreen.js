@@ -1,4 +1,4 @@
-import { Permissions } from "expo";
+import * as Permissions from 'expo-permissions';
 import React from "react";
 import { Button, Image, Text, View } from "react-native";
 /* =============================================================================

@@ -1,4 +1,4 @@
-import { takeSnapshotAsync } from "expo";
+import { captureRef as takeSnapshotAsync } from "react-native-view-shot";
 import React from "react";
 import { Dimensions, View } from "react-native";
 import { NavigationActions, StackActions, } from "react-navigation";
